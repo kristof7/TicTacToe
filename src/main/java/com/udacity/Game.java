@@ -218,6 +218,11 @@ public class Game {
             result = "O wins";
         }
         //-----when Tie   -------------
+        else if(freeSpots == 0){
+            result = "Tie";
+        }
+
+
 
         return result;
     }
